@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController, UITextViewDelegate {
 
@@ -19,6 +20,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     var index = 0
     var currentText = ""
     var confettiView: SAConfettiView!
+    var audioPlayer: AVAudioPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,6 +70,9 @@ class ViewController: UIViewController, UITextViewDelegate {
                 textView.alpha = 0
             }, completion: { _ in
                 self.gifView.loadGif(name: "fuck_you")
+                
+                self.playPartyHorn()
+                
                 self.confettiView.startConfetti()
                 UIView.animate(withDuration: 2, animations: {
                     self.fuckYou.alpha = 1
@@ -80,6 +85,19 @@ class ViewController: UIViewController, UITextViewDelegate {
         }
         textView.text! = currentText
         spawn🖕()
+    }
+    
+    func playPartyHorn() {
+        let path = Bundle.main.path(forResource: "party_horn", ofType: "mp3")!
+        let url = URL(fileURLWithPath: path)
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.numberOfLoops = -1
+            audioPlayer?.play()
+        } catch {
+            // couldn't load file :(
+        }
     }
     
     func spawn🖕() {
