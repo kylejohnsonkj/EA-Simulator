@@ -34,7 +34,7 @@ Our team will continue to make changes and monitor community feedback and update
                                 <fontDescription key="fontDescription" type="system" pointSize="12.5"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="no"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fuck_you.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Fww-nl-C4V">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="spongebob.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Fww-nl-C4V">
                                 <rect key="frame" x="16" y="452" width="343" height="215"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -58,7 +58,7 @@ Our team will continue to make changes and monitor community feedback and update
                     </view>
                     <navigationItem key="navigationItem" title="EA Simulator" id="dvK-sa-KEC"/>
                     <connections>
-                        <outlet property="fuckYou" destination="f4f-O8-VUX" id="biF-eQ-zQh"/>
+                        <outlet property="fingers" destination="f4f-O8-VUX" id="xIa-ti-mqh"/>
                         <outlet property="gifView" destination="Fww-nl-C4V" id="ETx-R7-6FZ"/>
                         <outlet property="sponsoredByEA" destination="tjh-kD-0R4" id="EBR-yw-GWb"/>
                         <outlet property="textView" destination="ZWI-Er-wWU" id="QQl-t4-kvF"/>
@@ -88,6 +88,6 @@ Our team will continue to make changes and monitor community feedback and update
         </scene>
     </scenes>
     <resources>
-        <image name="fuck_you.gif" width="500" height="315"/>
+        <image name="spongebob.gif" width="500" height="315"/>
     </resources>
 </document>

@@ -13,7 +13,7 @@ class ViewController: UIViewController, UITextViewDelegate {
 
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var gifView: UIImageView!
-    @IBOutlet weak var fuckYou: UILabel!
+    @IBOutlet weak var fingers: UILabel!
     @IBOutlet weak var sponsoredByEA: UILabel!
     
     var words: [String] = []
@@ -36,7 +36,7 @@ class ViewController: UIViewController, UITextViewDelegate {
 
         textView.text! = ""
         gifView.image = nil
-        fuckYou.alpha = 0
+        fingers.alpha = 0
         sponsoredByEA.alpha = 0
         textView.becomeFirstResponder()
         
@@ -60,29 +60,29 @@ class ViewController: UIViewController, UITextViewDelegate {
                 currentText += words[index] + " "
             }
             index += 1
+            
         } else {
             textView.isEditable = false
-            gifView.image = UIImage(named: "fuck_you.gif")
+            gifView.image = UIImage(named: "spongebob.gif")
             
             let screenHeight = CGFloat(UIScreen.main.bounds.height)
             UIView.animate(withDuration: 2, delay: 0, options: [.curveEaseInOut], animations: {
                 self.gifView.frame.origin.y = screenHeight / 2 - self.gifView.frame.height / 2 + (self.navigationController?.navigationBar.frame.height)! / 2
                 textView.alpha = 0
             }, completion: { _ in
-                self.gifView.loadGif(name: "fuck_you")
-                
+                self.gifView.loadGif(name: "spongebob")
                 self.playPartyHorn()
-                
                 self.confettiView.startConfetti()
                 UIView.animate(withDuration: 2, animations: {
-                    self.fuckYou.alpha = 1
+                    self.fingers.alpha = 1
                     self.sponsoredByEA.alpha = 1
                 })
                 UIView.animate(withDuration: 1, delay: 0, options: [.repeat, .autoreverse], animations: {
-                    self.fuckYou.transform = CGAffineTransform(scaleX: 1.20, y: 1.20)
+                    self.fingers.transform = CGAffineTransform(scaleX: 1.2, y: 1.2)
                 })
             })
         }
+        
         textView.text! = currentText
         spawn🖕()
     }
