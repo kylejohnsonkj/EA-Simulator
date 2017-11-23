@@ -12,6 +12,14 @@
 		E583A4C31FC65DD000EB1280 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E583A4C11FC65DD000EB1280 /* Main.storyboard */; };
 		E583A4C51FC65DD000EB1280 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E583A4C41FC65DD000EB1280 /* Assets.xcassets */; };
 		E583A4C81FC65DD000EB1280 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E583A4C61FC65DD000EB1280 /* LaunchScreen.storyboard */; };
+		E583A4D01FC65DF200EB1280 /* EA.txt in Resources */ = {isa = PBXBuildFile; fileRef = E583A4CF1FC65DF100EB1280 /* EA.txt */; };
+		E583A4D21FC6716F00EB1280 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E583A4D11FC6716F00EB1280 /* UIImage+Gif.swift */; };
+		E583A4D41FC6722D00EB1280 /* fuck_you.gif in Resources */ = {isa = PBXBuildFile; fileRef = E583A4D31FC6722D00EB1280 /* fuck_you.gif */; };
+		E583A4D61FC679F700EB1280 /* SAConfettiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E583A4D51FC679F700EB1280 /* SAConfettiView.swift */; };
+		E583A4DC1FC67DA100EB1280 /* confetti.png in Resources */ = {isa = PBXBuildFile; fileRef = E583A4D81FC67DA100EB1280 /* confetti.png */; };
+		E583A4DD1FC67DA100EB1280 /* diamond.png in Resources */ = {isa = PBXBuildFile; fileRef = E583A4D91FC67DA100EB1280 /* diamond.png */; };
+		E583A4DE1FC67DA100EB1280 /* triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = E583A4DA1FC67DA100EB1280 /* triangle.png */; };
+		E583A4DF1FC67DA100EB1280 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = E583A4DB1FC67DA100EB1280 /* star.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		E583A4C41FC65DD000EB1280 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E583A4C71FC65DD000EB1280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E583A4C91FC65DD000EB1280 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E583A4CF1FC65DF100EB1280 /* EA.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EA.txt; sourceTree = "<group>"; };
+		E583A4D11FC6716F00EB1280 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
+		E583A4D31FC6722D00EB1280 /* fuck_you.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = fuck_you.gif; sourceTree = "<group>"; };
+		E583A4D51FC679F700EB1280 /* SAConfettiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SAConfettiView.swift; sourceTree = "<group>"; };
+		E583A4D81FC67DA100EB1280 /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
+		E583A4D91FC67DA100EB1280 /* diamond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diamond.png; sourceTree = "<group>"; };
+		E583A4DA1FC67DA100EB1280 /* triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle.png; sourceTree = "<group>"; };
+		E583A4DB1FC67DA100EB1280 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				E583A4C41FC65DD000EB1280 /* Assets.xcassets */,
 				E583A4C61FC65DD000EB1280 /* LaunchScreen.storyboard */,
 				E583A4C91FC65DD000EB1280 /* Info.plist */,
+				E583A4CF1FC65DF100EB1280 /* EA.txt */,
+				E583A4D11FC6716F00EB1280 /* UIImage+Gif.swift */,
+				E583A4D51FC679F700EB1280 /* SAConfettiView.swift */,
+				E583A4D81FC67DA100EB1280 /* confetti.png */,
+				E583A4D91FC67DA100EB1280 /* diamond.png */,
+				E583A4DB1FC67DA100EB1280 /* star.png */,
+				E583A4DA1FC67DA100EB1280 /* triangle.png */,
+				E583A4D31FC6722D00EB1280 /* fuck_you.gif */,
 			);
 			path = "EA-Simulator";
 			sourceTree = "<group>";
@@ -123,9 +147,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E583A4D41FC6722D00EB1280 /* fuck_you.gif in Resources */,
 				E583A4C81FC65DD000EB1280 /* LaunchScreen.storyboard in Resources */,
+				E583A4DF1FC67DA100EB1280 /* star.png in Resources */,
 				E583A4C51FC65DD000EB1280 /* Assets.xcassets in Resources */,
+				E583A4D01FC65DF200EB1280 /* EA.txt in Resources */,
+				E583A4DD1FC67DA100EB1280 /* diamond.png in Resources */,
+				E583A4DE1FC67DA100EB1280 /* triangle.png in Resources */,
 				E583A4C31FC65DD000EB1280 /* Main.storyboard in Resources */,
+				E583A4DC1FC67DA100EB1280 /* confetti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E583A4D21FC6716F00EB1280 /* UIImage+Gif.swift in Sources */,
 				E583A4C01FC65DD000EB1280 /* ViewController.swift in Sources */,
+				E583A4D61FC679F700EB1280 /* SAConfettiView.swift in Sources */,
 				E583A4BE1FC65DD000EB1280 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +305,9 @@
 		E583A4CD1FC65DD000EB1280 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GP799FVH94;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "EA-Simulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kjapps.EA-Simulator";
@@ -288,9 +320,9 @@
 		E583A4CE1FC65DD000EB1280 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GP799FVH94;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "EA-Simulator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kjapps.EA-Simulator";
